@@ -1,0 +1,221 @@
+.navbar{
+left:10px;
+}
+#text img{
+    height:35px;
+}
+#eventName{
+    width:250px;
+display: inline-block;
+height:22px;
+margin-left:10%;
+}
+.datepicker{
+display: inline-block;
+}
+.row {
+display: flex;;
+top:60%;
+}
+#city{
+    height:22px;
+}
+.column {
+flex: 33.33%;
+padding: 45px;
+text-align:center;
+
+}
+.column img{
+    max-width:300px;
+    height:250px;
+}
+#links{
+    margin-left:10%;
+    display:inline-block;
+    position: relative;
+}
+.image {
+    background-size: auto;
+    background-image: url("concert2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2%;
+    box-shadow: 0px 10px 5px rgb(17, 17, 17);
+    margin:0%;
+    height: static;
+    max-width:100%;
+}
+#text {
+    animation: mymove 1s ;
+    animation-timing-function: ease-out;
+    position: relative;
+    animation-fill-mode: forwards;
+    text-shadow: 4px 4px 10px #252424;
+    font-family: serif;
+    font-size: 150%;
+    margin-left:12%;
+    display:inline-block;
+}
+.navbar {
+    animation: mymove 1s ;
+    animation-timing-function: ease-out;
+    position: relative;
+    animation-fill-mode: forwards;
+    padding: 20px;
+    overflow: hidden; 
+}
+@keyframes mymove {
+    from {top: -150px;}
+    to {top: 0px;}
+} 
+#animation img {
+    display: none;;
+}
+#animation img:first-child {
+    display: none;
+}
+#bdy{
+    width: 100%;
+    height: 100%;
+    background-repeat: repeat-y repeat-x;
+    background-color: black;
+    padding-block-end: 20%
+}
+#follow {
+    color: white;
+}
+.firstrow {
+    background-color: rgb(235, 147, 76);
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+#eventsnearme{
+    margin-top:35%;
+}
+#twitter{
+    height:35px;
+    }
+    #insta{
+    height:35px;
+    }
+    #uberlink{
+    height:35px;
+    }
+    #lyftlink{
+    height:35px;
+    }
+    #submitbtn{
+        margin-left:9%;
+        background:black;
+        color:white;
+        border-radius:5px;
+    }
+    table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    border: 2px solid black;
+    border-collapse: collapse;
+    border-spacing: 25px;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 25%;
+    font-weight:bolder;
+} 
+
+    tr:nth-child(even) {
+    background-color: #dddddd;
+    font-family: 'Montserrat', sans-serif;
+    background-color: orange;
+} 
+
+    h2{
+    text-align: center;
+    color: black;
+    text-shadow: 4px 4px 10px #252424;
+    text-shadow: 4px 4px 10px #641b09;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.tableheaders {
+    background-color: white;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+.firstrow {
+    background-color: rgb(219, 152, 97);
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+} 
+
+.seatgeek {
+    width: 15%;
+}
+
+#back2Top {
+    width: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    z-index: 999;
+    display: none;
+    cursor: pointer;
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+    position: fixed;
+    bottom: 50px;
+    right: 0;
+    background-color: #DDD;
+    color: #555;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+#back2Top:hover {
+    background-color: #DDF;
+    color: #000;
+}
+
+/* #pictureModal {
+    z-index: 1;
+    width: 15%;
+} */
+
+.modal {
+    z-index: 1;
+    width: 18%;
+    background-color: rgb(219, 152, 97);
+    margin-left: 10px;
+    border: lightgray 1px solid;
+}
+
+#zipInput {
+    background-color: lightgray;
+    color: black;
+}
+
+#zipClick {
+    background-color: lightgray;
+    color: black;
+}
+
+/* <div id="pictureModal">
+        <form action="" class="zipCode_form modal" id="zipCode" style="display:none">
+            <p><input id="zipInput" type="text" placeholder="Zip Code" style="text-align:center"/></p>
+            <p><input id="zipClick" type="submit" value="Submit" rel="modal:close" /></p>
+        </form>
+    </div> */
