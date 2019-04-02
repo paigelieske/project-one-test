@@ -1,7 +1,3 @@
-$(document).ready(function(){
-    $(this).scrollTop(0);
-});
-
 $("#submitbtn").on("click", function (evt) {
     evt.preventDefault();
 
@@ -200,11 +196,11 @@ $(window).scroll(function () {
         $('#back2Top').fadeOut();
     }
 });
+
 $(document).ready(function () {
     $("#back2Top").click(function (event) {
         event.preventDefault();
         $("html, body").animate({ scrollTop: 0 }, "slow");
         return false;
     });
-
 });
