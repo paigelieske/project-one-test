@@ -7,7 +7,7 @@ onload = function createImage() {
     for (var i = 1; i < 90; i++) {
     //    creating image in the div and loading url into it
         Image = $("<img>");
-        url =  "Golden_Tix_Idea/Falling_Tickets/Falling_Tickets_" + i + ".png";
+        url =  "assets/images/Golden_Tix_Idea/Falling_Tickets/Falling_Tickets_" + i + ".png";
         Image.attr("src", url);
         Image.attr("class", "animated");
         $("#animation").append(Image);

@@ -11,8 +11,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
 
-    <link rel="stylesheet" type="text/css" href="paige.css">
-    <link rel="stylesheet" type="text/css" href="pumastyle.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/paige.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/pumastyle.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,7 +24,15 @@
 
     <div class="image">
         <div id="text">
-            <h1><strong>T<img src="magnifying glass.png" width=35px height=50px>CKET FIEND</strong></h1>
+            <h1><strong>T<img src="assets/images/magnifying glass.png">CKET FIEND</strong></h1>
+        </div>
+        <div id="links">
+            Need a Ride?
+            <a href="https://www.uber.com/"><img id="uberlink" src="assets/images/uberpic.png"></a>
+            <a href="https://www.lyft.com/"><img id="lyftlink" src="assets/images/lyftpic.png"></a>
+            Follow Us!
+            <a href="https://twitter.com/FiendTicket"><img id="twitter" src="assets/images/twitter.png"></a>
+            <a href="https://www.instagram.com/ticketfiend/"><img id="insta" src="assets/images/insta.jpg"></a>
         </div>
         <div class="navbar">
             <input id="eventName" placeholder="Artists, Teams, or Events"></input>
@@ -36,16 +44,7 @@
             <span class="location">
                 <input id="city" placeholder="Enter City"></input>
             </span>
-            <button id="submitbtn" type="submit">Submit Search</button>
-            <span id="needaride"> Need a ride?
-                <a href="https://www.uber.com/"><img id="uberlink" src="uberpic.png"></a>
-                <a href="https://www.lyft.com/"><img id="lyftlink" src="lyftpic.png"></a>
-            </span>
-            <p id="follow"> <strong>FOLLOW US:</strong></p>
-            <a href="https://twitter.com/FiendTicket">
-                <img src="twitter.png" style="width:33px;height:30px;border:0"></a>
-            <a href="https://www.instagram.com/ticketfiend/">
-                <img src="insta.jpg" style="width:33px;height:30px;border:0"></a>
+            <button id="submitbtn" href="#" type="submit">Submit Search</button>
         </div>
     </div>
 
@@ -59,16 +58,17 @@
     <p id="instructions">OR...Click Pictures for Events in Your Area!</p>
 
     <div class="row">
-        <div class="column" id="concertColumn">
-            <img class="localEvents" id="concert" value="concert" src="musicpic.jpg" alt="Concert"
-                style="width:100%"></a>
+        <div class="column">
+            <img class="localEvents" id="concert" value="concert" src="assets/images/musicpic.jpg" alt="Concert">
+            <div class="imgtext">Music</div>
         </div>
-        <div class="column" id="sportsColumn">
-            <img class="localEvents" id="sports" value="sports" src="sportspic.jpg" alt="Sports" style="width:100%"></a>
+        <div class="column">
+            <img class="localEvents" id="sports" value="sports" src="assets/images/sportspic.jpg" alt="Sports">
+            <div class="imgtext">Sports</div>
         </div>
-        <div class="column" id="theaterColumn">
-            <img class="localEvents" id="theater" value="theater" src="theaterpic.jpg" alt="Theater"
-                style="width:100%"></a>
+        <div class="column">
+            <img class="localEvents" id="theater" value="theater" src="assets/images/theaterpic.jpg" alt="Theater">
+            <div class="imgtext">Performances</div>
         </div>
     </div>
 
@@ -76,8 +76,8 @@
 
     <a id="back2Top" title="Back to top" href="#">&#10148;</a>
 
-    <script src="fiend.js"></script>
-    <script src="ticket-app-Paige.js"></script>
+    <script src="assets/javascript/fiend.js"></script>
+    <script src="assets/javascript/ticket-app-Paige.js"></script>
 
 </body>
 

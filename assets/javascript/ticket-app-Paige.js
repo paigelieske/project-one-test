@@ -1,3 +1,7 @@
+$(document).ready(function(){
+    $(this).scrollTop(0);
+});
+
 $("#submitbtn").on("click", function (evt) {
     evt.preventDefault();
 
@@ -57,7 +61,7 @@ $("#submitbtn").on("click", function (evt) {
 
             var ticketLink = $("<a>");
             ticketLink.attr("href", results[i].url);
-            var ticketImage = $("<img src = seatgeek.png>");
+            var ticketImage = $("<img src = assets/images/seatgeek.png>");
             ticketImage.addClass("seatgeek");
             ticketLink.html(ticketImage);
 
@@ -166,7 +170,7 @@ $(".localEvents").on("click", function (evt) {
 
                 var ticketLink = $("<a>");
                 ticketLink.attr("href", results[i].url);
-                var ticketImage = $("<img src = seatgeek.png>");
+                var ticketImage = $("<img src = assets/images/seatgeek.png>");
                 ticketImage.addClass("seatgeek");
                 ticketLink.html(ticketImage);
 
@@ -181,7 +185,7 @@ $(".localEvents").on("click", function (evt) {
 
                     $('#results tbody').append(newRow);
                     $(".modal").hide();
-                    // $('html').scrollTop(0);
+                    $('html').scrollTop(0);
                 }
             }
         })

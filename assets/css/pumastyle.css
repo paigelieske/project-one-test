@@ -2,7 +2,7 @@
 left:10px;
 }
 #text img{
-    height:35px;
+    height:45px;
 }
 #eventName{
     width:250px;
@@ -37,7 +37,7 @@ text-align:center;
 }
 .image {
     background-size: auto;
-    background-image: url("concert2.jpg");
+    background-image: url("../images/concert2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 2%;
@@ -213,9 +213,16 @@ td, th {
     color: black;
 }
 
-/* <div id="pictureModal">
-        <form action="" class="zipCode_form modal" id="zipCode" style="display:none">
-            <p><input id="zipInput" type="text" placeholder="Zip Code" style="text-align:center"/></p>
-            <p><input id="zipClick" type="submit" value="Submit" rel="modal:close" /></p>
-        </form>
-    </div> */
+#instructions{
+    font-weight:bolder;
+    font-family:serif;
+    font-size: 35px;
+    text-align:center;
+}
+.imgtext{
+    position: relative;
+    top:-50px;
+    color:white;
+    font-size:40px;
+    font-weight: bolder;
+}
